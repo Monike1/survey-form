@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #2c3e50;
+    background: white;
+}
+p {
+    margin-bottom: 6px;
+}
+
+#survey-form {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    width: 85%;
+    max-width: 600px;
+    background: #fff;
+    margin: 2em auto;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#survey-form h1 {
+    margin-top: 0;
+    font-weight: 200;
+}
+.form-section {
+    border: none;
+    margin: 12px 0;
+    padding: 12px 18px;
+}
+.block {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.block input, .form-section textarea {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #999;
+    background: #eee;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    
+}
+.form-section select {
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #999;
+    background: #eee;
+}
+button {
+    display: inline-block;
+    background: #3498db;
+    padding: 14px 10px;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 18px;
+    border-radius: 5px;
+}
+button:hover, button:focus {
+    background: #2980b9;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+   <form id="survey-form">
+     <h1 id="title">Survey Form</h1>
+     <p id="description">Let us know how we can improve our e-learning platform</p>
+      <div class="form-section block">
+      <label for="name" id="name-label">Name: </label>
+      <input type="text" id="name" class="input-field" name="name" required placeholder="Enter your name">
+      </div>
+      <div class="form-section block">
+      <label for="email" id="email-label">Email: </label>
+      <input type="email" id="email" class="input-field" name="email" required placeholder="Enter your email">
+      </div>
+      
+      <div class="form-section block">
+      <label for="number" id="number-label">Age: </label> 
+      <input type="number" min="1" max="130" id="number" class="input-field" name="age" required placeholder="Enter a number">
+      </div>
+      
+      <div class="form-section">
+      <label for="dropdown" class="block">Your current role: </label>
+      <select id="dropdown" name="currentRole" class="dropdown">
+          <option disabled value="">Select one option</option>
+          <option value="student">Student</option>
+          <option value="fullTimeJob">Full Time Worker</option>
+          <option value="partTimeJob">Part Time Worker</option>
+          <option value="workAndStudy">Student and Worker</option>
+          <option value="other">Other</option>
+      </select>
+      </div>
+      
+      <div class="form-section">
+       <p>Would you recommend our e-learning platform to a friend?</p>
+         <div>
+          <input type="radio" id="yes" name="recommend" value="yes" checked>
+          <label for="yes">Yes</label>
+          </div>
+
+          <div>
+          <input type="radio" id="maybe" name="recommend" value="maybe">
+          <label for="maybe">Maybe</label>
+          </div>
+           
+          <div>
+          <input type="radio" id="no" name="recommend" value="no">
+          <label for="no">No</label>
+          </div>
+      </div>
+    
+      
+      
+      <div class="form-section">
+          <p>What do you like most in our e-learning platform?</p>
+     <select id="dropdown" name="mostLiked" class="dropdown">
+          <option disabled value="">Select one option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="videos">Videos</option>
+          <option value="community">Community</option>
+          <option value="other">Other</option>
+      </select>
+      </div>
+      
+      <div class="form-section">
+          <p>What should be improved?</p>
+              <div>
+              <input type="checkbox" id="challenges" name="challenges" value="challenges" checked>
+              <label for="challenges">Challenges</label>
+              </div>
+              <div>
+              <input type="checkbox" id="projects" name="projects" value="projects">
+              <label for="projects">Projects</label>
+              </div>
+              <div>
+              <input type="checkbox" id="videos" name="videos" value="videos">
+              <label for="videos">Videos</label>
+              </div>
+              <div>
+              <input type="checkbox" id="forum" name="forum" value="forum">
+              <label for="forum">Forum</label>
+              </div>
+          </div>
+      
+      
+      <div class="form-section">
+          <label>Your comments and suggestions: </label>
+          <textarea></textarea>
+      </div>
+      
+      <button id="submit">Submit</button>
+      
+   </form>
+    
+</body>
+</html>
